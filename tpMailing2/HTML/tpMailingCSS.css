@@ -1,0 +1,177 @@
+h1,h2,h3,h4,h5,h6,p,ul,li,div{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width:700px;
+	margin: 0 auto;
+	background-color:#ffffff;
+	font-family: verdana;
+	font-size: 12;
+}
+
+h2{
+	font-family:REBOARD;
+	color:red;
+	font-size:36px;
+	padding-bottom:20px;
+}
+
+h3{
+	font-family:REBOARD;
+	font-size: 36px;
+	color:yellow;
+}
+
+h4{
+	color:blue;
+	font-size:16px;
+	font-family:CODE;
+	padding-top:5px;
+}
+
+
+
+#encabezado{
+	background-image: url("Imagenes/Fondo div 1.jpg");
+	height:453px;
+	padding: 20px;
+	padding-left:35px;
+}
+
+#obras{
+	background-color:#050197;
+	height:240px;
+	padding-bottom: 15px;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#destacada{
+	background-color:#dc0015;
+	height:420px;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+#desuscribirse{
+	background-color:#ffdd00;
+	height:75px;
+	font-family: CODE;
+	color: #00adb3;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+#desuscribirse2 {
+	padding-top: 5px;
+}
+
+#Andy{
+	width:210px;
+	height:211px;
+	padding-top:30px;
+}
+
+#TITULO{
+	padding-top:20px;
+	padding-bottom:20px;
+	
+    display: block;
+    margin: auto;
+}
+
+#descr{
+	color:black;
+	font-family:CLEMENTE;
+	padding-right:20px;
+	font-size:16px;
+	padding-left:20px;
+}
+
+#columPP1{
+	width:310px;
+    float:left;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-right: 10px;
+	padding-left:20px;
+	text-align: center;
+}
+#columPP2{
+	width:310px;
+    float:left;
+	padding-bottom:10px;
+	padding-top:25px;
+	padding-left: 10px;
+	padding-right:20px;
+	font-size: 16px;
+	color:black;
+	font-family:CLEMENTE;
+	text-align:center:
+}
+
+#obras4{
+	padding-left: 35px;
+	padding-right: 35px;
+}	
+
+#stuff{
+	padding-top:14px;
+}
+	
+	
+.nombreObra{
+	color: yellow;
+	font-family:CODE;
+	font-size:12px;
+	padding-top:13px;
+}
+
+.tamañoObra{
+	height:120px;
+	width: 120px;
+}
+
+.right{
+	padding-top: 12px;
+    padding-left: 430px;
+}
+.centrado{
+	text-align: center;
+}
+
+.column {
+     width:120px;
+     float:left;
+	 text-align: center;
+	 font-size: 8;
+	 padding-right:15px;
+	 padding-left:15px;
+	 font-weight: bold;
+}
+
+.mifloat{
+	float: left;
+}
+
+
+	
+@font-face {
+    font-family: "CLEMENTE";
+    src: url(Fuentes/ClementePDaa-Hairline.ttf);
+}
+
+@font-face {
+    font-family: "CODE";
+    src: url(Fuentes/CODE Bold.otf);
+}
+
+@font-face {
+    font-family: "REBOARD";
+    src: url(Fuentes/REBOARD FONT.ttf);
+}

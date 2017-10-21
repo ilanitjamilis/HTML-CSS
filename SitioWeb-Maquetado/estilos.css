@@ -1,0 +1,411 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/*Mobile first directamente*/
+@font-face {
+	font-family: Fjalla;
+	src: url(fonts/FjallaOne.ttf);
+}
+@font-face {
+	font-family: Lato;
+	src: url(fonts/Lato.ttf);
+}
+@font-face {
+	font-family: Slabo;
+	src: url(fonts/Slabo.ttf);
+}
+body{
+	background-color: #d2d890;
+}
+img{
+	float: left;
+}
+h1{
+	color: white;
+	vertical-align: middle;
+	font-family: Lato;
+	margin-left:150px;
+}
+header{
+	background-color: #7f1410;
+}
+main{
+	padding-bottom: 10px;
+}
+
+::-webkit-input-placeholder {
+	   font-size: 18px;
+	   font-weight: 650;
+	   color:#787F7E;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+      font-size: 18px;
+	  font-weight: 650;
+	  color:#787F7E;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+      font-size: 18px;
+	  font-weight: 650;
+	  color:#787F7E;
+}
+
+:-ms-input-placeholder {
+	  font-size: 18px;
+	  font-weight: 650;
+	  color:#787F7E;
+}
+.formContacto{
+	margin:20px;
+}
+.iNombre{
+	height:8%;
+}
+.iEmail{
+	height:8%;
+}
+.iAsunto{
+	height:8%;
+}
+.iMensaje{
+	height:29%;
+}
+.btnSubmit{
+	width:100%;
+	height:8%;
+	background-color:#FF3C2A;
+	border:0;
+	font-size:20px;
+}
+.btn-primary:hover{
+	background-color:#e59311;
+}
+.subtituloForm{
+	margin-top:35px;
+	margin-bottom:25px;
+	text-align:center;
+	font-size:18px;
+	color: #4d1916;
+	font-family: Lato;
+	font-weight: 600;
+}
+.imagen {
+	display:block;
+	text-align:center;
+	vertical-align: middle;
+	width: 95%;
+	height: 60%;
+    background-image: URL('img/añonuevochino.jpg');
+    -webkit-animation-name: home; 
+    -webkit-animation-duration: 28s; 
+    animation-name: home;
+    animation-duration: 28s;
+    animation-delay: 2s;
+	-webkit-animation-iteration-count: 50; 
+    animation-iteration-count: 50;
+	background-repeat: repeat-y;
+	margin: 0 auto;	
+}
+.fotoColectividad{
+	height: 60%;
+    background-image: URL('img/colectividadChina2.jpg');
+	background-repeat: repeat-y;
+}
+footer{
+	background-color: #4d1916;
+	padding: 10px;
+}
+.foot{
+	color: #fff;
+	font-size: 20px;
+	font-family: Lato;
+	float:left;
+	margin-top:5px;
+}
+.foot2{
+	color: #fff;
+	font-size: 20px;
+	font-family: Lato;
+	margin-left:1100px;
+	margin-top:5px;
+}
+.foot3{
+	color: #fff;
+	font-size: 20px;
+	font-family: Lato;
+	margin-top:6px;
+}
+.a2 {
+	width:120px;
+	height:45px;
+    padding: 5px;
+	padding-top:0px;
+	margin: 2px;
+	margin-left:20px;
+    overflow: hidden;
+    background-color: #400a08;
+	color: #FFFFFF;
+	font-family: Fjalla;
+}
+.a1 {
+	width:120px;
+	height:45px;
+    padding: 5px;
+	padding-top:0px;
+	margin: 2px;
+	margin-left:20px;
+    overflow: hidden;
+    background-color: #e59311;
+	color: #FFFFFF;
+	font-family: Fjalla;
+}
+nav{
+	width: 100%;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav>li {
+    float: initial;
+  line-height: 150px;
+}
+.nav>li {
+    display:inline-block;
+}
+
+.style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #770c0a;
+}
+.force-overflow
+{
+	height: 180px;
+}
+.style-3::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #770c0a;
+}
+
+.style-3::-webkit-scrollbar-thumb
+{
+	background-color: #be924b;
+}
+.noticia{
+	color: #bf7b0e;
+	font-family: Slabo;
+	font-size: 27px;
+	text-align: center;
+}
+
+.caja{
+	background-color: #760c0a;
+}
+.scrollbar{
+	background-color: #e2e0dc;
+	line-height:3em;
+	overflow:auto;
+	padding: 5px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes home {
+    0%   {background-image: URL('img/añonuevochino.jpg');}
+    25%  {background-image: URL('img/añodelgallo.jpg');}
+    50%  {background-image: URL('img/hanfu.jpg');}
+    100% {background-image: URL('img/barriochino.jpg');}
+}
+
+/* Standard syntax */
+@keyframes home {
+    0%   {background-image: URL('img/añonuevochino.jpg');}
+    25%  {background-image: URL('img/añodelgallo.jpg');}
+    50%  {background-image: URL('img/hanfu.jpg');}
+    100% {background-image: URL('img/barriochino.jpg');}
+}
+
+/* Mobile */
+h1{
+	font-size: 30px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	padding-left: 150px;
+}
+.bandera{
+	width:123px;
+	height:84px;
+	float:left;
+	background-image:URL('img/bandera-mobile.jpg');
+}
+
+.scrollbar{
+	height: 380px;
+}
+.noticiafoto{
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.colectividadDiv{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e59311;
+	font-family:Slabo;
+	color:#4d1916;
+	font-size:18px;
+	line-height:20px;
+	height:60%;
+}
+.gastronomiaDiv{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.gastronomiaDiv2{
+	background-color: #4d1916;
+	padding: 15px;
+}
+.comidafoto{
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:10px;
+}
+.vermasfondo{
+	background-color: #e68d88;
+}
+.vermas{
+	color: #4d1916;
+	font-family: Slabo;
+	font-size: 30px;
+}
+.todasComidas{
+	margin-bottom:15px;
+}
+
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) { 
+	h1{
+		font-size: 55px;
+		padding-top: 68px;
+		padding-bottom: 68px;
+		padding-left: 350px;
+	}
+	.bandera{
+		width:214px;
+		height:195px;
+		float:left;
+		background-image:URL('img/bandera-tablet.jpg');
+	}
+	.noticias{
+		height: 380px;
+	}
+	.scrollbar{
+		height: 380px;
+	}
+	.noticiafoto{
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.colectividadDiv{
+	font-size:18px;
+	line-height:38px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+}
+
+/* Desktop */
+@media (min-width: 1200px) { 
+	h1{
+		font-size: 80px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 350px;
+	}
+	.bandera{
+		width:188px;
+		height:134px;
+		float:left;
+		background-image:URL('img/bandera-desktop.jpg');
+	}
+	.col-md-4{
+		height: 380px;
+	}
+	.scrollbar{
+		height: 380px;
+	}
+	.noticiafoto{
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.colectividadDiv{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e59311;
+	font-family:Slabo;
+	color:#4d1916;
+	font-size:22px;
+	line-height:40px;
+	}
+}

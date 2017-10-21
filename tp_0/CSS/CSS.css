@@ -1,0 +1,32 @@
+.bloques1{
+	background-color:#FFA500;
+	width:49%;
+	height:100px;
+	display:inline-block;
+}
+
+.bloque2{
+	background-color:#FFFF00;
+	width:98.5%;
+	height:200px;
+	display:inline-block;
+}
+
+.bloques3{
+	background-color:#0101DF;
+	width:32.6%;
+	height:150px;
+	display:inline-block;
+}
+
+.bloques4{
+	background-color:#808080;
+	width:24.4%;
+	height:150px;
+	display:inline-block;
+}
+
+.divs{
+	margin-bottom:10px;
+	margin-left:25px;
+}

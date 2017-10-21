@@ -1,0 +1,173 @@
+h1,h2,h3,h4,h5,h6,p,ul,li,div{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width:600px;
+	margin: 0 auto;
+	background-color:#ffffff;
+	font-family: verdana;
+	font-size: 12;
+}
+
+#encabezado{
+	background-color:#ffffff;
+	height:180px;
+	padding: 20px;
+}
+
+#descripcion{
+	background-color:#ed9696;
+	height:182px;
+	text-align: center;
+	padding-bottom: 1px;
+	padding-top: 35px;
+	padding-left: 25px;
+	padding-right: 10px;
+}
+
+#platos{
+	background-color:#f17575;
+	height:206px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 40px;
+	padding-right: 25px;
+}
+
+#favorito{
+	background-color:#ee4f4f;
+	height:333px;
+	padding-bottom:20px;
+	padding-top:10px;
+}
+
+#desuscribirse{
+	background-color:#ed2f2f;
+	height:61px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#desuscribirseID{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left:190.5px;
+	padding-right:190.5px;
+}
+
+#mifloat{
+	float: left;
+}
+
+#descr{
+	color:white;
+	font-family:Montserrat-Regular;
+}
+
+.column {
+     width:102px;
+     float:left;
+	 text-align: center;
+	 font-size: 8;
+	 padding-right:1px;
+	 padding-left: 1px;
+	 padding-top: 10px;
+
+}
+.nomPlato{
+	color: #ffffff;
+	font-family:Brig;
+	font-size:9px;
+}
+.infoplato{
+	color: #fff0f0;
+	font-family:Montserrat-Regular;
+	font-size:8px;
+}
+.right{
+	padding-top: 12px;
+    padding-left: 430px;
+}
+.centrado{
+	text-align: center;
+}
+
+#columPP1{
+	width:200px;
+    float:left;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left:50px;
+	color:white;
+	font-family:Montserrat-Regular;
+}
+#columPP2{
+	width:300px;
+    float:left;
+	padding-bottom:10px;
+	padding-right:30px;
+	padding-top:0px;
+	color:white;
+	font-family:Montserrat-Regular;
+}
+	
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(Fuentes/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: "Brig";
+    src: url(Fuentes/Brig.ttf);
+}
+
+@font-face {
+    font-family: "Baron";
+    src: url(Fuentes/BaronNeue.otf);
+}
+
+@font-face{
+	font-family:"Montserrat-Light";
+	src:url(Fuentes/Montserrat-Light.otf);
+}
+
+#todosPlatos{
+	padding-top:10px;
+}
+
+#masPlatos{
+	padding-top:2px;
+}
+
+#stuff{
+	padding-top:14px;
+}
+
+
+h1{
+	font-size: 50px;
+	color:white;
+	font-family:Montserrat-Light;
+}
+
+h2{
+	font-family:Montserrat-Light;
+	color:white;
+	font-size:45px;
+}
+
+h3{
+	font-family:Montserrat-Light;
+	font-size: 45px;
+	color:white;
+}
+
+h4{
+	color:ffcccc;
+	font-size:32px;
+	font-family:Montserrat-Light;
+	padding-top:5px;
+}
